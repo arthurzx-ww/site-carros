@@ -15,7 +15,7 @@
           <img class="img-audi" src="./img/audi.png" alt="car-audi" />
         </div>
         <!-- menu -->
-        <nav class="navigation">
+        <nav class="navigation" id="nav">
           <ul class="nav-itens">
             <li><a class="nav-item" href="#">Início</a></li>
             <li><a class="nav-item" href="#">Serviços</a></li>
@@ -24,6 +24,11 @@
             <li><a class="nav-item button-nav" href="#">Agendar online</a></li>
           </ul>
         </nav>
+        <div class="bars" id="bars">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </div>
     </header>
     <!-- corpo -->
@@ -53,65 +58,63 @@
         </div>
       </section>
       <!-- cards -->
-      <section class="card">
-        <div class="card-content">
-          <div class="title-card">
-            <h1 class="card-title">Os serviços que oferecemos</h1>
-          </div>
-          <div class="cards-text">
-            <article class="cards">
-              <img class="img-cards" src="./img/audi.png" alt="audi" />
-              <h3 class="cards-title">Troca de óleo</h3>
-              <p class="texts-cards">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                corporis nisi nobis nulla debitis voluptatum recusandae nesciunt
-                aperiam commodi sequi vero voluptates perferendis doloribus,
-                dolorum ea magnam? Ex, odit est!
-              </p>
-              <span class="button-cards">
-                <a class="cards-btn" href="#">Ver mais</a>
-              </span>
-            </article>
-            <article class="cards">
-              <img class="img-cards" src="./img/audi.png" alt="audi" />
-              <h3 class="cards-title">Manutenções preventivas</h3>
-              <p class="texts-cards">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                corporis nisi nobis nulla debitis voluptatum recusandae nesciunt
-                aperiam commodi sequi vero voluptates perferendis doloribus,
-                dolorum ea magnam? Ex, odit est!
-              </p>
-              <span class="button-cards">
-                <a class="cards-btn" href="#">Ver mais</a>
-              </span>
-            </article>
-            <article class="cards">
-              <img class="img-cards" src="./img/audi.png" alt="audi" />
-              <h3 class="cards-title">Revisão de palhetas</h3>
-              <p class="texts-cards">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                corporis nisi nobis nulla debitis voluptatum recusandae nesciunt
-                aperiam commodi sequi vero voluptates perferendis doloribus,
-                dolorum ea magnam? Ex, odit est!
-              </p>
-              <span class="button-cards">
-                <a class="cards-btn" href="#">Ver mais</a>
-              </span>
-            </article>
-            <article class="cards">
-              <img class="img-cards" src="./img/audi.png" alt="audi" />
-              <h3 class="cards-title">Checagem de freios</h3>
-              <p class="texts-cards">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                corporis nisi nobis nulla debitis voluptatum recusandae nesciunt
-                aperiam commodi sequi vero voluptates perferendis doloribus,
-                dolorum ea magnam? Ex, odit est!
-              </p>
-              <span class="button-cards">
-                <a class="cards-btn" href="#">Ver mais</a>
-              </span>
-            </article>
-          </div>
+      <section class="cards">
+        <div class="title-card">
+          <h1 class="card-title">Os serviços que oferecemos</h1>
+        </div>
+        <div class="cards-content">
+          <article class="card">
+            <img class="img-cards" src="./img/audi.png" alt="audi" />
+            <h3 class="cards-title">Troca de óleo</h3>
+            <p class="texts-cards">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              corporis nisi nobis nulla debitis voluptatum recusandae nesciunt
+              aperiam commodi sequi vero voluptates perferendis doloribus,
+              dolorum ea magnam? Ex, odit est!
+            </p>
+            <span class="button-cards">
+              <a class="cards-btn" href="#">Ver mais</a>
+            </span>
+          </article>
+          <article class="card">
+            <img class="img-cards" src="./img/audi.png" alt="audi" />
+            <h3 class="cards-title">Manutenções preventivas</h3>
+            <p class="texts-cards">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              corporis nisi nobis nulla debitis voluptatum recusandae nesciunt
+              aperiam commodi sequi vero voluptates perferendis doloribus,
+              dolorum ea magnam? Ex, odit est!
+            </p>
+            <span class="button-cards">
+              <a class="cards-btn" href="#">Ver mais</a>
+            </span>
+          </article>
+          <article class="card">
+            <img class="img-cards" src="./img/audi.png" alt="audi" />
+            <h3 class="cards-title">Revisão de palhetas</h3>
+            <p class="texts-cards">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              corporis nisi nobis nulla debitis voluptatum recusandae nesciunt
+              aperiam commodi sequi vero voluptates perferendis doloribus,
+              dolorum ea magnam? Ex, odit est!
+            </p>
+            <span class="button-cards">
+              <a class="cards-btn" href="#">Ver mais</a>
+            </span>
+          </article>
+          <article class="card">
+            <img class="img-cards" src="./img/audi.png" alt="audi" />
+            <h3 class="cards-title">Checagem de freios</h3>
+            <p class="texts-cards">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              corporis nisi nobis nulla debitis voluptatum recusandae nesciunt
+              aperiam commodi sequi vero voluptates perferendis doloribus,
+              dolorum ea magnam? Ex, odit est!
+            </p>
+            <span class="button-cards">
+              <a class="cards-btn" href="#">Ver mais</a>
+            </span>
+          </article>
         </div>
       </section>
       <!-- introdução -->
@@ -225,16 +228,16 @@
             <p class="text-description">Todos os direitos reservados</p>
           </div>
           <div class="descriptions-texts">
-            <p class="texts-descriptions">Serviços</p>
-            <p class="texts-descriptions">Troca de óleo</p>
-            <p class="texts-descriptions">Manutenções preventivas</p>
-            <p class="texts-descriptions">Revisão de palhetas</p>
-            <p class="texts-descriptions">Checagem de freios</p>
+            <p class="text-description">Serviços</p>
+            <p class="text-description">Troca de óleo</p>
+            <p class="text-description">Manutenções preventivas</p>
+            <p class="text-description">Revisão de palhetas</p>
+            <p class="text-description">Checagem de freios</p>
           </div>
-          <div class="description-texts">
-            <p class="text-descriptions">Sobre nós</p>
-            <p class="text-descriptions">Contato</p>
-            <p class="text-descriptions">Orçamento online</p>
+          <div class="descriptions-texts">
+            <p class="text-description">Sobre nós</p>
+            <p class="text-description">Contato</p>
+            <p class="text-description">Orçamento online</p>
           </div>
           <div class="descriptions-imgs">
             <img class="imgs-descriptions" src="./img/audi.png" alt="" />
@@ -244,5 +247,6 @@
         </div>
       </section>
     </main>
+    <script src="js/script.js"></script>
   </body>
 </html>
