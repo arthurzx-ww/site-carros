@@ -474,7 +474,7 @@ body {
   :root {
     --font-small: 1.2rem;
     --font-smaller: 1rem;
-    --font-xlarge: 2.4rem;
+    --font-xlarge: 2rem;
     --font-large: 1.5rem;
   }
   .logo {
@@ -574,7 +574,6 @@ body {
     margin: auto;
     padding: 1rem 1rem;
     justify-content: space-between;
-    background: purple;
   }
   .cards-content::-webkit-scrollbar-thumb {
     background: var(--white);
@@ -587,5 +586,9 @@ body {
   }
   .banner {
     height: 60vh;
+  }
+  .banner-button {
+    flex-direction: column;
+    margin-bottom: 3rem;
   }
 }
