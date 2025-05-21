@@ -560,9 +560,10 @@ body {
   }
   .descriptions-imgs {
     width: 100%;
+    display: none;
     align-items: center;
     justify-content: center;
-    display: flex;
+    /* display: flex; */
   }
   .cards {
     padding: 2rem 0.5rem;
@@ -585,10 +586,17 @@ body {
     border-radius: 20px;
   }
   .banner {
-    height: 60vh;
+    height: 100%;
+  }
+  .banner-content {
+    padding: 4rem 0;
   }
   .banner-button {
     flex-direction: column;
     margin-bottom: 3rem;
+  }
+  .title-banner {
+    text-align: center;
+    margin-top: 1rem;
   }
 }
