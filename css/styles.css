@@ -42,7 +42,6 @@ body {
   margin: auto;
 }
 .logo {
-  width: 30%;
   width: 150px;
   height: 100px;
   align-items: center;
@@ -167,6 +166,7 @@ body {
   margin-bottom: 2rem;
 }
 .card-title {
+  margin-bottom: 1.5rem;
   justify-content: center;
   width: 100%;
   color: var(--light-black);
